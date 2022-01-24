@@ -1,0 +1,8 @@
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\bin\Debug\ExercicioDoCurso.exe.config
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\bin\Debug\ExercicioDoCurso.exe
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\bin\Debug\ExercicioDoCurso.pdb
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\obj\Debug\ExercicioDoCurso.csproj.AssemblyReference.cache
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\obj\Debug\ExercicioDoCurso.csproj.SuggestedBindingRedirects.cache
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\obj\Debug\ExercicioDoCurso.csproj.CoreCompileInputs.cache
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\obj\Debug\ExercicioDoCurso.exe
+C:\Users\sanfi\Desktop\Aulas que estou fazendo\C# COMPLETO Nelio\Seção 9 Enumerações e composição\Exercicios\ExercicioDoCurso\ExercicioDoCurso\obj\Debug\ExercicioDoCurso.pdb
