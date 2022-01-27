@@ -15,6 +15,7 @@ namespace ExercicioDoCurso
         {
             CultureInfo CI = CultureInfo.InvariantCulture;
 
+            //Pegando os dados do trabalhador
             Console.Write("Enter department's name: ");
             string deptName = Console.ReadLine();
 
@@ -29,13 +30,20 @@ namespace ExercicioDoCurso
             Console.Write("Base salary: ");
             double baseSalary = double.Parse(Console.ReadLine(), CI);
 
-            Department dept = new Department(deptName);
-            Worker Worker = new Worker(name, level, baseSalary, dept);
+            //Construtor Department == Departamento
+            Department dept = new Department(deptName); //Pega o nome do departamento que foi digitado e armazena na variavel Name da classe.
+
+            //Contrutor Worker == Trabalhador
+            Worker Worker = new Worker(name, level, baseSalary, dept);//Pega os dados que foram digitados e armazena nas variaves da classe Worker.
             Console.WriteLine();
 
+            //============================================================================================================================================
+
+            //Permite que você digite quantos contratos vai fazer
             Console.Write("How many contracts to this worker? ");
             int n = int.Parse(Console.ReadLine());
 
+            //Laço com um contador i que percorre enquanto i for menor ou igual ao n que foi digitado antes
             for(int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"Enter #{i} contract data:");
@@ -45,12 +53,18 @@ namespace ExercicioDoCurso
                 double valuePerHour = double.Parse(Console.ReadLine(), CI);
                 Console.Write("Duration (hours): ");
                 int hours = int.Parse(Console.ReadLine());
+
+                //Construtor HourContract 
+                //Pega os dados que foram digitados e armazena nas variaves da classe HourContract.
                 HourContract contract = new HourContract(date, valuePerHour, hours);
+
+                //Metodo para adicionar um contrato
                 Worker.AddContract(contract);
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------------------");
             }
             Console.WriteLine();
 
+            //Permite que você digite o ano e o mês que ira entrar no calculo
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
             string monthAndYear = Console.ReadLine();
 
